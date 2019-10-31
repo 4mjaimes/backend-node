@@ -16,5 +16,9 @@ const moviesApi = (app) => {
         }
     });
 }
-
+  // "husky": {
+  //   "hooks": {
+  //     "pre-commit": "lint-staged"
+  //   }
+  // },
 export default moviesApi;
